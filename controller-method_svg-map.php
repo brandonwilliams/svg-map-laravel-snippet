@@ -13,6 +13,10 @@
  * LinkedIn: https://www.linkedin.com/in/brandonpwilliams/
  */
 
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
 class ExampleController extends Controller {
 
     public function getSvg(Request $request) {
